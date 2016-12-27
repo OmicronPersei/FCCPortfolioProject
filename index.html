@@ -1,5 +1,11 @@
-<!-- Bootstrap -->
+<!--
+ Bootstrap 
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+-->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <!-- My style sheet -->
 <link rel="stylesheet" type="text/css" href="CSS.css">
@@ -8,18 +14,32 @@
     <body>
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid mainContentBlock">
+                
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsableNavBarItems">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
                 <div class="navbar-text usernameText">OmicronPersei</div>
-                <div class="navbar-text navbar-right pagesNavBarText">
-                    <a href="#" class="pagesNavBarText">Contact</a>
-                </div>
-                <div class="navbar-text navbar-right pagesNavBarText">
-                    <a href="#" class="pagesNavBarText">Projects</a>
-                </div>
-                <div class="navbar-text navbar-right pagesNavBarText">
-                    <a href="#" class="pagesNavBarText">Skills</a>
-                </div>
-                <div class="navbar-text navbar-right pagesNavBarText">
-                    <a href="#" class="pagesNavBarText">About</a>
+                
+                <div class="navbar-right pagesNavBarText collapsableNavItems">
+                    <div class="collapse navbar-collapse" id="collapsableNavBarItems">
+                        <ul class="nav navbar-nav">
+                            <li class="navbar-text pagesNavBarTextStyle">
+                                <a href="#">Contact</a>
+                            </li>
+                            <li class="navbar-text pagesNavBarTextStyle">
+                                <a href="#">Projects</a>
+                            </li>
+                            <li class="navbar-text pagesNavBarTextStyle">
+                                <a href="#">Skills</a>
+                            </li>
+                            <li class="navbar-text pagesNavBarTextStyle">
+                                <a href="#">About</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>

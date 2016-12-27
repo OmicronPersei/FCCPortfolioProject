@@ -27,12 +27,18 @@
 }
 
 .navbar .mainContentBlock .pagesNavBarText {
+    margin: 0px 0px;
+    padding: 39.35 0px;
+}
+
+.navbar .mainContentBlock .collapsableNavItems .pagesNavBarTextStyle a {
     color: white;
     font-size: 15px;
     font-family: Gill Sans,Gill Sans MT,Calibri,Arial;
     text-transform: uppercase;
-    
     margin: 0px 0px;
-    padding: 39.35 5px;
+    padding: 0px 0px;
 }
+
+
 
