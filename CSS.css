@@ -1,4 +1,4 @@
-.container {
+.container-fluid {
     padding: 0;
     margin: 0;
 }
@@ -53,6 +53,31 @@
     text-transform: uppercase;
     margin: 0px 0px;
     padding: 10px 10px;
+}
+
+.navbar .mainContentBlock .collapsableNavItems .pagesNavBarTextStyleLastElem a {
+    padding: 10px 0px 10px 10px;
+}
+
+.pageContentAfterNavBar {
+    margin-top: 125px;
+}
+
+.pageContentTable {
+    width: 100%;
+    border-style: none;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.pageContentTableBorder {
+    border-style: none;
+}
+
+.aboutTableCell{
+    background-image: url("http://i.imgur.com/JGNYN88.jpg");
+    min-height: 300px;
+    width: 100%;
 }
 
 
