@@ -13,8 +13,8 @@
     width: auto;
     height: auto;
     max-width: 800px;
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 0px auto;
+    padding: 0px 25px;
 }
 
 .navbar .mainContentBlock .usernameText {
@@ -32,7 +32,7 @@
 }
 
 #navbarCollapsedButton {
-    margin: 33px 30px 33px 0px;
+    margin: 33px 0px;
 /*    padding: 28px 0px;*/
 }
 
