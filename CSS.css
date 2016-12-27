@@ -4,17 +4,16 @@ body {
     background-image: url("http://i.imgur.com/JGNYN88.jpg");
     background-size: cover;
     color: white;
-}
-
-.container-fluid {
-    padding: 0;
-    margin: 0;
+    
+    padding-top: 100px;
+    text-shadow: 3px 3px 7px #000000;
 }
 
 .navbar {
     background-color: #0a1d3c;
     border: 0px;
     width: 100%;
+    margin: 0px;
 }
 
 .mainContentBlock {
@@ -23,10 +22,12 @@ body {
     max-width: 1200px;
     margin: 0px auto;
     padding: 0px 25px;
+    
+    color: white;
+    font-size: 25px;
 }
 
 .navbar .mainContentBlock .usernameText {
-    
     font-size: 30px;
     font-weight: bolder;
     color: white;
@@ -41,7 +42,6 @@ body {
 
 #navbarCollapsedButton {
     margin: 33px 0px;
-/*    padding: 28px 0px;*/
 }
 
 #collapsableNavBarItems > ul {
@@ -66,33 +66,25 @@ body {
     padding: 10px 0px 10px 10px;
 }
 
-.pageContentAfterNavBar {
-    margin-top: 100px;
-    text-shadow: 3px 3px 7px #000000;
-}
-
-.pageContentTable {
-    border-style: none;
-    width: 100%;
-}
-
-.aboutTableCell {
-    margin: 0px 0px;
-    padding: 0px 0px;
-    width: 100%;
-}
-
-h1 {
+h1.aboutBlock {
     font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.aboutTableCell > p {
-    font-size: 23px;
-}
-
-.aboutTableCell > p > a{
-    color: white;
+.mainContentBlock > p > a {
     text-decoration: underline;
+    color: white;
+}
+
+.aboutBlock:before {
+    display: block; 
+    content: " "; 
+    margin-top: -125px; 
+    height: 125px; 
+    visibility: hidden; 
 }
 
 
