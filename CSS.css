@@ -1,33 +1,32 @@
 body {
     font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
-    background-color: #AAA;
-    background-image: url("http://i.imgur.com/JGNYN88.jpg");
+    background-color: #000;
+/*    background-image: url("http://i.imgur.com/JGNYN88.jpg");*/
     background-size: cover;
     color: white;
     
     padding-top: 100px;
-    text-shadow: 3px 3px 7px #000000;
+    text-shadow: 2px 2px 10px #000000;
+    
+    
 }
 
 .navbar {
-    background-color: #0a1d3c;
+    background-color: #0b2d65;
     border: 0px;
     width: 100%;
     margin: 0px;
 }
 
-.mainContentBlock {
+.wholePageContents {
     width: auto;
     height: auto;
     max-width: 1200px;
     margin: 0px auto;
     padding: 0px 25px;
-    
-    color: white;
-    font-size: 25px;
 }
 
-.navbar .mainContentBlock .usernameText {
+.navbar .wholePageContents .usernameText {
     font-size: 30px;
     font-weight: bolder;
     color: white;
@@ -35,7 +34,7 @@ body {
     margin: 0px 0px;
 }
 
-.navbar .mainContentBlock .navbarPagesItems {
+.navbar .wholePageContents .navbarPagesItems {
     margin: 0px 0px;
     padding: 0px 0px;
 }
@@ -54,7 +53,7 @@ body {
     padding: 0px; 0px;
 }
 
-.navbar .mainContentBlock .collapsableNavItems .pagesNavBarTextStyle a {
+.navbar .wholePageContents .collapsableNavItems .pagesNavBarTextStyle a {
     color: white;
     font-size: 15px;
     text-transform: uppercase;
@@ -62,29 +61,39 @@ body {
     padding: 10px 10px;
 }
 
-.navbar .mainContentBlock .collapsableNavItems .pagesNavBarTextStyleLastElem a {
+.navbar .wholePageContents .collapsableNavItems .pagesNavBarTextStyleLastElem a {
     padding: 10px 0px 10px 10px;
 }
 
-h1.aboutBlock {
+.pageContents {
+    color: white;
+    font-size: 25px;
+}
+
+.pageContents > .pageContentBlock > h1 {
     font-weight: bold;
-    margin-top: 25px;
-    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.mainContentBlock > p > a {
-    text-decoration: underline;
-    color: white;
+.pageContentBlock {
+    margin: 50px auto;
+    background-color: #AAA
 }
 
-.aboutBlock:before {
+.pageContentBlock:before {
     display: block; 
     content: " "; 
-    margin-top: -125px; 
-    height: 125px; 
+    margin-top: -150px; 
+    height: 150px; 
     visibility: hidden; 
+}
+
+.pageContentBlock a {
+    text-decoration: underline;
+    color: white;
 }
 
 
