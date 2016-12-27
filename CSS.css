@@ -1,26 +1,35 @@
+body {
+    font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+    background-color: #AAA;
+    background-image: url("http://i.imgur.com/JGNYN88.jpg");
+    background-size: cover;
+    color: white;
+}
+
 .container-fluid {
     padding: 0;
     margin: 0;
 }
 
 .navbar {
-    background-color: #402070;
+    background-color: #0a1d3c;
     border: 0px;
+    width: 100%;
 }
 
 .mainContentBlock {
-/*    width: auto;*/
-/*    height: auto;*/
-    max-width: 800px;
+    width: auto;
+    height: auto;
+    max-width: 1200px;
     margin: 0px auto;
     padding: 0px 25px;
 }
 
 .navbar .mainContentBlock .usernameText {
-    color: white;
+    
     font-size: 30px;
     font-weight: bolder;
-    font-family: Gill Sans,Gill Sans MT,Calibri,Arial;
+    color: white;
     padding: 29px 0px;
     margin: 0px 0px;
 }
@@ -48,7 +57,6 @@
 .navbar .mainContentBlock .collapsableNavItems .pagesNavBarTextStyle a {
     color: white;
     font-size: 15px;
-    font-family: Gill Sans,Gill Sans MT,Calibri,Arial;
     text-transform: uppercase;
     margin: 0px 0px;
     padding: 10px 10px;
@@ -60,6 +68,7 @@
 
 .pageContentAfterNavBar {
     margin-top: 100px;
+    text-shadow: 3px 3px 7px #000000;
 }
 
 .pageContentTable {
@@ -68,12 +77,22 @@
 }
 
 .aboutTableCell {
-    background-image: url("http://i.imgur.com/JGNYN88.jpg");
-    background-size: 100% auto;
     margin: 0px 0px;
-    padding: 25px 25px;
+    padding: 0px 0px;
     width: 100%;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.aboutTableCell > p {
+    font-size: 23px;
+}
+
+.aboutTableCell > p > a{
     color: white;
+    text-decoration: underline;
 }
 
 
