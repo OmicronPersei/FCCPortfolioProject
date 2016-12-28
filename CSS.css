@@ -83,7 +83,7 @@ body {
 }
 
 .pageContentBlock {
-    margin: 0px 0px;
+/*    margin: 0px 0px;*/
     padding: 25px 25px;
     background-color: white;
 /*    border-radius: 5px;*/
@@ -92,14 +92,14 @@ body {
 
 .firstPageContentBlock {
 /*    padding-top: 25px;*/
-    background-color: #b5bdca;
+    background-color: #bec2ca;
 }
 
 .pageContentBlock:before {
     display: block; 
     content: " "; 
-    margin-top: -175px; 
-    height: 175px; 
+    margin-top: -150px; 
+    height: 150px; 
     visibility: hidden; 
 }
 
