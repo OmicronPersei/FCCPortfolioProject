@@ -1,6 +1,6 @@
 body {
     font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
-    background-color: #000;
+    background-color: #b7c3d6;
 /*    background-image: url("http://i.imgur.com/JGNYN88.jpg");*/
     background-size: cover;
     color: white;
@@ -67,27 +67,29 @@ body {
 
 .pageContents {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .pageContents > .pageContentBlock > h1 {
     font-weight: bold;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: auto;
+    margin-left: 0px;
     margin-right: auto;
 }
 
 .pageContentBlock {
-    margin: 50px auto;
-    background-color: #AAA
+    margin: 50px 0px;
+    padding: 25px 25px;
+    background-color: #041127;
+    border-radius: 5px;
 }
 
 .pageContentBlock:before {
     display: block; 
     content: " "; 
-    margin-top: -150px; 
-    height: 150px; 
+    margin-top: -175px; 
+    height: 175px; 
     visibility: hidden; 
 }
 
