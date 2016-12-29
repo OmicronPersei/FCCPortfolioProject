@@ -129,12 +129,12 @@ body > .navbar, .pageContentBlock {
     border-radius: 200px;
 }
 
-.showcaseItem > .thumbnail > .caption > h4 {
-    text-align: center;
-}
-
 .showcaseItem > .thumbnail > a {
     text-decoration: none;
+}
+
+.showcaseItem > .thumbnail > * > .caption > h4 {
+    text-align: center;
 }
 
 .showcaseItem > .thumbnail > * > .caption > p {
