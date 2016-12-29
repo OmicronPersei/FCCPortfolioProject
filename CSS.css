@@ -73,17 +73,30 @@ body {
     font-size: 20px;
 }
 
-.pageContents > .pageContentBlock > h1, h2 {
+.pageContents > .pageContentContainer > .pageContentBlock > h1, h2 {
     font-weight: bold;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    margin: 5px 0px;
+    margin: 0px 0px;
+    padding-bottom: 5px;
+}
+
+.pageContentContainer {
+    
+}
+
+.pageContentContainer:before {
+    display: block; 
+    content: " "; 
+    margin-top: -150px; 
+    height: 150px; 
+    visibility: hidden; 
 }
 
 .pageContentBlock {
-/*    margin: 0px 0px;*/
+    margin: 0px 0px;
     padding: 25px 25px;
     background-color: white;
 /*    border-radius: 5px;*/
@@ -91,16 +104,8 @@ body {
 }
 
 .firstPageContentBlock {
-/*    padding-top: 25px;*/
+    padding-top: 25px;
     background-color: #bec2ca;
-}
-
-.pageContentBlock:before {
-    display: block; 
-    content: " "; 
-    margin-top: -150px; 
-    height: 150px; 
-    visibility: hidden; 
 }
 
 .pageContentBlock a {
