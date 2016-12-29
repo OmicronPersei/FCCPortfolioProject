@@ -1,6 +1,6 @@
 body {
     font-family: Segoe UI,Calibri,sans-serif;
-    background-color: #383c42;
+    background-color: #b7bfcb;
 /*
     background-image: url("http://i.imgur.com/JGNYN88.jpg");
     background-size: cover;
@@ -8,6 +8,7 @@ body {
     padding-top: 100px;
 }
 
+/* Gives the .navbar and all .pageContentBlock a shadow */
 body > .navbar, .pageContentBlock {
     box-shadow: 3px 3px 8px black;
 }
@@ -20,6 +21,7 @@ body > .navbar, .pageContentBlock {
     color: white;
 }
 
+/* Style all page contents should receive, excluding the width of the whole .navbar */
 .wholePageContents {
     width: auto;
     height: auto;
@@ -28,11 +30,8 @@ body > .navbar, .pageContentBlock {
     padding: 0px 25px;
 }
 
-.navbarContainer {
-    padding: 0px 0px;
-}
-
-.navbar > .container-fluid > .navbarContainer > .usernameText {
+/* Style for the person's username text in the .navbar */
+.navbar > .container-fluid > .usernameText {
     font-size: 30px;
     font-weight: bolder;
     color: white;
@@ -40,7 +39,8 @@ body > .navbar, .pageContentBlock {
     margin: 0px 0px;
 }
 
-.navbar > .container-fluid > .navbarContainer > .navbarPagesItems {
+/* Style for the container of .navbarPageItems */
+.navbar > .container-fluid > .navbarPagesItems {
     margin: 0px 0px;
     padding: 0px 0px;
 }
@@ -98,19 +98,38 @@ body > .navbar, .pageContentBlock {
 
 .pageContentBlock {
     margin: 0px 0px;
-    padding: 50px 125px;
+    padding: 50px 75px;
     background-color: white;
     color: #0f1114;
-}
-
-.firstPageContentBlock {
-    background-color: #bec2ca;
 }
 
 .pageContentBlock a {
     text-decoration: underline;
     color: black;
 }
+
+.firstContentBlock {
+    background-color: #e4e7ee;
+}
+
+.aboutContentItem {
+    padding: 0px 15px;
+}
+
+.aboutContentItem > h2 {
+    text-align: right;
+    vertical-align: middle;
+}
+
+.aboutContentItem > img {
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+    padding: auto;
+    border-radius: 200px;
+}
+
+
 
 
 
