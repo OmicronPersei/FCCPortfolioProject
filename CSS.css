@@ -29,7 +29,7 @@ body > .navbar, .pageContentBlock {
 }
 
 .navbarContainer {
-    padding: 0px 25px;
+    padding: 0px 0px;
 }
 
 .navbar > .container-fluid > .navbarContainer > .usernameText {
@@ -98,13 +98,12 @@ body > .navbar, .pageContentBlock {
 
 .pageContentBlock {
     margin: 0px 0px;
-    padding: 25px 25px;
+    padding: 50px 125px;
     background-color: white;
     color: #0f1114;
 }
 
 .firstPageContentBlock {
-    padding-top: 25px;
     background-color: #bec2ca;
 }
 
