@@ -129,7 +129,9 @@ body > .navbar, .pageContentBlock {
     border-radius: 200px;
 }
 
-
+.socialMediaItem > .thumbnail > .caption > h4 {
+    text-align: center;
+}
 
 
 
