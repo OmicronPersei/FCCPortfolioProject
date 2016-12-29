@@ -1,39 +1,52 @@
-.container {
-    padding: 0;
-    margin: 0;
+body {
+    font-family: Segoe UI,Calibri,sans-serif;
+    background-color: #b7bfcb;
+/*
+    background-image: url("http://i.imgur.com/JGNYN88.jpg");
+    background-size: cover;
+*/
+    padding-top: 100px;
+}
+
+/* Gives the .navbar and all .pageContentBlock a shadow */
+body > .navbar, .pageContentBlock {
+    box-shadow: 3px 3px 8px black;
 }
 
 .navbar {
-    background-color: #402070;
-    @navbarHeight: 300px;
-    min-height: 100px;
+    background-color: #0b2d65;
+    border: 0px;
+    width: 100%;
+    margin: 0px;
+    color: white;
 }
 
-.mainContentBlock {
+/* Style all page contents should receive, excluding the width of the whole .navbar */
+.wholePageContents {
     width: auto;
     height: auto;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 auto;
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 0px 25px;
 }
 
-.navbar .mainContentBlock .usernameText {
-    color: white;
+/* Style for the person's username text in the .navbar */
+.navbar > .container-fluid > .usernameText {
     font-size: 30px;
     font-weight: bolder;
-    font-family: Gill Sans,Gill Sans MT,Calibri,Arial;
-    padding: 28.7px 0px;
+    color: white;
+    padding: 29px 0px;
     margin: 0px 0px;
 }
 
-.navbar .mainContentBlock .navbarPagesItems {
+/* Style for the container of .navbarPageItems */
+.navbar > .container-fluid > .navbarPagesItems {
     margin: 0px 0px;
     padding: 0px 0px;
 }
 
 #navbarCollapsedButton {
-    margin: 33px 30px 33px 0px;
-/*    padding: 28px 0px;*/
+    margin: 33px 0px;
 }
 
 #collapsableNavBarItems > ul {
@@ -46,14 +59,89 @@
     padding: 0px; 0px;
 }
 
-.navbar .mainContentBlock .collapsableNavItems .pagesNavBarTextStyle a {
+.navbar .wholePageContents .collapsableNavItems .pagesNavBarTextStyle a {
     color: white;
     font-size: 15px;
-    font-family: Gill Sans,Gill Sans MT,Calibri,Arial;
     text-transform: uppercase;
     margin: 0px 0px;
     padding: 10px 10px;
 }
+
+.navbar .wholePageContents .collapsableNavItems .pagesNavBarTextStyleLastElem a {
+    padding: 10px 0px 10px 10px;
+}
+
+.pageContents {
+    color: white;
+    font-size: 20px;
+}
+
+.pageContentBlock > h1, h2 {
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin: 0px 0px;
+    padding-bottom: 25px;
+}
+
+.pageContentContainer { }
+
+.pageContentContainer:before {
+    display: block; 
+    content: " "; 
+    margin-top: -125px; 
+    height: 125px; 
+    visibility: hidden; 
+}
+
+.pageContentBlock {
+    margin: 0px 0px;
+    padding: 50px 75px;
+    background-color: white;
+    color: #0f1114;
+}
+
+.pageContentBlock a {
+    text-decoration: underline;
+    color: black;
+}
+
+.firstContentBlock {
+    background-color: #e4e7ee;
+}
+
+.aboutContentItem {
+    padding: 0px 15px;
+}
+
+.aboutContentItem > h2 {
+    text-align: right;
+    vertical-align: middle;
+}
+
+.aboutContentItem > img {
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+    padding: auto;
+    border-radius: 200px;
+}
+
+.showcaseItem > .thumbnail > a {
+    text-decoration: none;
+}
+
+.showcaseItem > .thumbnail > * > .caption > h4 {
+    text-align: center;
+}
+
+.showcaseItem > .thumbnail > * > .caption > p {
+    font-size: 15px;
+}
+
+
 
 
 
