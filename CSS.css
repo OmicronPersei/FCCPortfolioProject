@@ -76,14 +76,14 @@ body > .navbar, .pageContentBlock {
     font-size: 20px;
 }
 
-.pageContents > .pageContentContainer > .pageContentBlock > h1, h2 {
+.pageContentBlock > h1, h2 {
     font-weight: bold;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     margin: 0px 0px;
-    padding-bottom: 5px;
+    padding-bottom: 25px;
 }
 
 .pageContentContainer { }
@@ -129,9 +129,19 @@ body > .navbar, .pageContentBlock {
     border-radius: 200px;
 }
 
-.socialMediaItem > .thumbnail > .caption > h4 {
+.showcaseItem > .thumbnail > .caption > h4 {
     text-align: center;
 }
+
+.showcaseItem > .thumbnail > a {
+    text-decoration: none;
+}
+
+.showcaseItem > .thumbnail > * > .caption > p {
+    font-size: 15px;
+}
+
+
 
 
 
