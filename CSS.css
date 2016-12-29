@@ -6,6 +6,7 @@ body {
     background-size: cover;
 */
     padding-top: 100px;
+    position: relative;
 }
 
 /* Gives the .navbar and all .pageContentBlock a shadow */

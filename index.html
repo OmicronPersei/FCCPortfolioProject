@@ -5,6 +5,9 @@
 <!-- My style sheet -->
 <link rel="stylesheet" type="text/css" href="./CSS.css">
 
+<!-- My JS -->
+<script type="text/javascript" src="./JS.js"></script>
+
 <html>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top">
@@ -19,19 +22,19 @@
 
                 <div class="navbarPagesItems collapsableNavItems">
                     <div class="collapse navbar-collapse" id="collapsableNavBarItems">
-                        <ul class="nav navbar-nav navbar-right">
+                        <ul class="nav nav-tabs navbar-nav navbar-right" role="tablist">
                             <li class="navbar-text pagesNavBarTextStyle"><a href="#about">About</a></li>
                             <li class="navbar-text pagesNavBarTextStyle"><a href="#skills">Skills</a></li>
                             <li class="navbar-text pagesNavBarTextStyle"><a href="#socialMedia">Social Media</a></li>
                             <li class="navbar-text pagesNavBarTextStyle"><a href="#projects">Projects</a></li>
-                            <li class="navbar-text pagesNavBarTextStyle pagesNavBarTextStyleLastElem"><a href="#contact">Contact</a></li>
+                            <li class="navbar-text pagesNavBarTextStyle"><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
         
-        <div class="wholePageContents pageContents">
+        <div class="wholePageContents pageContents" id="mainPageContents" data-spy="scroll" data-target="#collapsableNavBarItems">
             
             <div class="pageContentContainer" id="about">
                 <div class="pageContentBlock firstContentBlock">
