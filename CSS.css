@@ -118,7 +118,6 @@ body > .navbar, .pageContentBlock {
 }
 
 .aboutContentItem > h2 {
-    text-align: right;
     vertical-align: middle;
 }
 
@@ -128,6 +127,14 @@ body > .navbar, .pageContentBlock {
     margin: auto;
     padding: auto;
     border-radius: 200px;
+}
+
+.aboutRightJustify > h2 {
+  text-align: right;
+}
+
+.aboutCenterJustify > h2 {
+  text-align: center;
 }
 
 .showcaseItem > .thumbnail > a {
