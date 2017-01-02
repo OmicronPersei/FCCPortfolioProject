@@ -75,7 +75,6 @@ body > .navbar, .pageContentBlock {
 .pageContents {
     color: white;
     font-size: 20px;
-    position: relative;
 }
 
 .pageContentBlock {
@@ -83,7 +82,6 @@ body > .navbar, .pageContentBlock {
     padding: 50px 75px;
     background-color: white;
     color: #0f1114;
-    position: relative;
 }
 
 .pageContentBlock > h1, h2 {
@@ -141,7 +139,7 @@ body > .navbar, .pageContentBlock {
 }
 
 .showcaseItem > .thumbnail > * > .caption > p {
-    font-size: 15px;
+    font-size: 12px;
 }
 
 
