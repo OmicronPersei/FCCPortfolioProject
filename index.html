@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <!-- My style sheet -->
@@ -9,8 +9,8 @@
 <script type="text/javascript" src="./JS.js"></script>
 
 <html>
-    <body>
-        <nav class="navbar navbar-default navbar-fixed-top">
+    <body data-spy="scroll" data-target="#collapsableNavBarItems" data-offset="100">
+        <nav class="navbar navbar-default navbar-fixed-top" id="fixedNavbar">
             <div class="container-fluid wholePageContents">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsableNavBarItems" id="navbarCollapsedButton">
                     <span class="icon-bar"></span>
@@ -22,7 +22,7 @@
 
                 <div class="navbarPagesItems collapsableNavItems">
                     <div class="collapse navbar-collapse" id="collapsableNavBarItems">
-                        <ul class="nav nav-tabs navbar-nav navbar-right" role="tablist">
+                        <ul class="nav nav-tabs navbar-nav navbar-right" id="navbarItems">
                             <li class="navbar-text pagesNavBarTextStyle"><a href="#about">About</a></li>
                             <li class="navbar-text pagesNavBarTextStyle"><a href="#skills">Skills</a></li>
                             <li class="navbar-text pagesNavBarTextStyle"><a href="#socialMedia">Social Media</a></li>
@@ -34,7 +34,7 @@
             </div>
         </nav>
         
-        <div class="wholePageContents pageContents" id="mainPageContents" data-spy="scroll" data-target="#collapsableNavBarItems">
+        <div class="wholePageContents pageContents" id="mainPageContents">
             
             <div class="pageContentContainer" id="about">
                 <div class="pageContentBlock firstContentBlock">

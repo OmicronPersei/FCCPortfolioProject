@@ -75,6 +75,15 @@ body > .navbar, .pageContentBlock {
 .pageContents {
     color: white;
     font-size: 20px;
+    position: relative;
+}
+
+.pageContentBlock {
+    margin: 0px 0px;
+    padding: 50px 75px;
+    background-color: white;
+    color: #0f1114;
+    position: relative;
 }
 
 .pageContentBlock > h1, h2 {
@@ -95,13 +104,6 @@ body > .navbar, .pageContentBlock {
     margin-top: -125px; 
     height: 125px; 
     visibility: hidden; 
-}
-
-.pageContentBlock {
-    margin: 0px 0px;
-    padding: 50px 75px;
-    background-color: white;
-    color: #0f1114;
 }
 
 .pageContentBlock a {
