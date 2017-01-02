@@ -23,7 +23,7 @@ body > .navbar, .pageContentBlock {
 }
 
 /* Style all page contents should receive, excluding the width of the whole .navbar */
-.wholePageContents {
+.pageWidthAndPadding {
     width: auto;
     height: auto;
     max-width: 900px;
@@ -60,7 +60,7 @@ body > .navbar, .pageContentBlock {
     padding: 0px; 0px;
 }
 
-.navbar .wholePageContents .collapsableNavItems .pagesNavBarTextStyle a {
+.navbar .pageWidthAndPadding .collapsableNavItems .pagesNavBarTextStyle a {
     color: white;
     font-size: 15px;
     text-transform: uppercase;
@@ -68,14 +68,13 @@ body > .navbar, .pageContentBlock {
     padding: 10px 10px;
 }
 
-.navbar .wholePageContents .collapsableNavItems .pagesNavBarTextStyleLastElem a {
+.navbar .pageWidthAndPadding .collapsableNavItems .pagesNavBarTextStyleLastElem a {
     padding: 10px 0px 10px 10px;
 }
 
 .pageContents {
     color: white;
     font-size: 20px;
-    position: relative;
 }
 
 .pageContentBlock {
@@ -83,7 +82,6 @@ body > .navbar, .pageContentBlock {
     padding: 50px 75px;
     background-color: white;
     color: #0f1114;
-    position: relative;
 }
 
 .pageContentBlock > h1, h2 {
@@ -141,7 +139,7 @@ body > .navbar, .pageContentBlock {
 }
 
 .showcaseItem > .thumbnail > * > .caption > p {
-    font-size: 15px;
+    font-size: 12px;
 }
 
 
